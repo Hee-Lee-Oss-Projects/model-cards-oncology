@@ -257,7 +257,7 @@ Peer-review-oriented reporting standards.
   deployed devices.
 - **MCP server (`model-card-mcp`).** Expose canonical schema, validator, license/data gate lookup,
   standards crosswalk, and completeness scorer as MCP tools so the human's own agent drafts cited
-  cards inline — fits Elyos's donated-lane "human runs their agent" model exactly, with no headless
+  cards inline — fits Hee-Lee Oss's donated-lane "human runs their agent" model exactly, with no headless
   invocation.
 
 ---

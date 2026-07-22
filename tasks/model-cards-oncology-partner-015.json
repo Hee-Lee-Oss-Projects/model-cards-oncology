@@ -11,7 +11,7 @@
   "deliverable": "document",
   "tokenEstimate": "small",
   "status": "open",
-  "context": "Elyos's bar is 'delivered, not merged': a card that no one accepts is not a delivered outcome. Currently all tasks carry verifiedNeed:false because no model maintainer, hub, or consortium has confirmed they will accept contributed model cards. This task converts the M0 outreach effort (outreach-008) into a formal first confirmed partnership — a named partner whose tasks can then be updated to verifiedNeed:true. Depends on outreach-008.",
+  "context": "Hee-Lee Oss's bar is 'delivered, not merged': a card that no one accepts is not a delivered outcome. Currently all tasks carry verifiedNeed:false because no model maintainer, hub, or consortium has confirmed they will accept contributed model cards. This task converts the M0 outreach effort (outreach-008) into a formal first confirmed partnership — a named partner whose tasks can then be updated to verifiedNeed:true. Depends on outreach-008.",
   "objective": "Secure at least one named model maintainer, hub, or consortium that formally confirms they will review and accept contributed model cards from this project, and document the contribution mechanism and partnership agreement.",
   "acceptanceCriteria": [
     "A named model maintainer, hub (e.g. Hugging Face, BioImage Model Zoo, MONAI Model Zoo), or cancer-AI consortium formally confirms they will review and accept contributed model cards from this project.",

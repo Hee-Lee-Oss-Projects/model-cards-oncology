@@ -54,7 +54,7 @@ is widely cited as a barrier to safe reuse of clinical/biomedical ML, and is the
 the Model Cards, Healthsheet, TRIPOD+AI, and CLAIM efforts. However, the **per-model, per-partner
 need is TO BE SECURED**: we have **not** yet confirmed a named model maintainer, consortium, or
 hub that has agreed to accept contributed model cards. Until a specific maintainer/hub confirms
-acceptance, individual tasks carry `verifiedNeed: false`. This honesty matters because Elyos's bar
+acceptance, individual tasks carry `verifiedNeed: false`. This honesty matters because Hee-Lee Oss's bar
 is "delivered, not merged" — a card that no one accepts is not a delivered outcome.
 
 **Partner org.** TO BE SECURED. Candidate channels: Hugging Face model authors (model-card PRs),
@@ -214,7 +214,7 @@ summary) are *projections* of it. Fields (superset of Model Cards + Healthsheet 
 - **Stop on access barrier or PII signal.** If documenting/reproducing requires controlled data, or
   any identifiable data surfaces, work halts and the model routes to EXCLUDE/FLAG.
 
-**Tech stack.** TypeScript, ESM, pnpm workspaces (Elyos convention). Validator and adapters are
+**Tech stack.** TypeScript, ESM, pnpm workspaces (Hee-Lee Oss convention). Validator and adapters are
 small Node packages with minimal deps; the subgroup-metric harness may shell out to a pinned,
 containerized Python eval environment (recorded in `specVersions`) since most cancer-ML evals are
 Python — kept isolated and reproducible, never embedded in the core. Cards authored in Markdown +
@@ -276,7 +276,7 @@ clause/URL**; missing/unparseable evidence = FLAG/EXCLUDE, never default-allow.
 sets. Handled by the gate: open/de-identified only; controlled-access/identifiable excluded; we do
 not download, store, or process patient-level data; the subgroup harness touches only already-open,
 de-identified eval data and commits only aggregate numbers. No secrets/tokens/data in logs,
-receipts, or commits (Elyos rule).
+receipts, or commits (Hee-Lee Oss rule).
 
 **Attribution & output license.** Every card attributes the model authors and each dataset per its
 license, links to originals, and states that **the card — not the model or data — is our
@@ -399,7 +399,7 @@ catalog entry becomes a per-model card task only after passing the per-model gat
   tiers, TCIA (per-collection license), CPTAC imaging, cBioPortal, COSMIC/OncoKB (NC — policy-gated).
   Controlled-access sources (dbGaP, EGA) are **excluded dependencies** — explicitly out of scope.
 - **Models:** specific open cancer ML models — TO BE SELECTED via triage; none assumed in scope yet.
-- **Elyos pieces:** Task JSON schema (`packages/schema`), donated-lane CLI workspace/PR flow
+- **Hee-Lee Oss pieces:** Task JSON schema (`packages/schema`), donated-lane CLI workspace/PR flow
   (`packages/cli`), good-deed definition + refusal guardrails. No funded-lane/runner dependency.
 
 ## Risks & mitigations
@@ -415,7 +415,7 @@ catalog entry becomes a per-model card task only after passing the per-model gat
 | Model/data versions change, making cards stale | Medium | Medium | Record model version + retrieval date; drift/refresh process (M3); validator flags spec drift | Maintainer |
 | Subgroup harness mishandles eval data / leaks patient data | Low | High | Access protocol: open/de-identified eval only, local/ephemeral, commit aggregates only; synthetic CI fixtures | Maintainer |
 | Spec drift (HF/Model Card Toolkit/Croissant changes) | Medium | Low | Canonical-schema-first; pinned `specVersions`; isolated version-bump task | Maintainer |
-| Re-identification or de-anonymization steering | Low | High | Hard refusal per Elyos guardrails; flag and stop; we never de-/re-identify | Data-License+Privacy reviewer |
+| Re-identification or de-anonymization steering | Low | High | Hard refusal per Hee-Lee Oss guardrails; flag and stop; we never de-/re-identify | Data-License+Privacy reviewer |
 
 ## Security & privacy
 
@@ -457,10 +457,10 @@ catalog entry becomes a per-model card task only after passing the per-model gat
 
 ## References
 
-- Elyos work rules — `C:\code\elyos\CLAUDE.md`
-- Good Deed Definition + risk tiers — `C:\code\elyos\docs\good-deed-definition.md`
-- Task JSON schema — `C:\code\elyos\packages\schema\src\schemas.ts`
-- Portfolio roadmap (Track 8 cancer guardrails) — `C:\code\elyos\planning\ROADMAP.md`
+- Hee-Lee Oss work rules — `C:\code\hee-lee-oss\CLAUDE.md`
+- Good Deed Definition + risk tiers — `C:\code\hee-lee-oss\docs\good-deed-definition.md`
+- Task JSON schema — `C:\code\hee-lee-oss\packages\schema\src\schemas.ts`
+- Portfolio roadmap (Track 8 cancer guardrails) — `C:\code\hee-lee-oss\planning\ROADMAP.md`
 - Mitchell et al., "Model Cards for Model Reporting" (2019)
 - Gebru et al., "Datasheets for Datasets"; Rostamzadeh et al., "Healthsheet"
 - TRIPOD+AI (2024); CLAIM — Checklist for AI in Medical Imaging (2024 update); FUTURE-AI; MI-CLAIM

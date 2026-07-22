@@ -11,7 +11,7 @@
   "deliverable": "document",
   "tokenEstimate": "small",
   "status": "open",
-  "context": "Elyos's bar is 'delivered, not merged': a card that no one accepts is not a delivered outcome. The project has no confirmed model-maintainer or hub partner yet (verifiedNeed:false for all tasks). This outreach task opens dialogue with candidate channels (Hugging Face model authors, BioImage/MONAI Model Zoo maintainers, Zenodo, cancer-AI consortia) to find a realistic acceptance path, and produces a shortlist of candidate models for triage.",
+  "context": "Hee-Lee Oss's bar is 'delivered, not merged': a card that no one accepts is not a delivered outcome. The project has no confirmed model-maintainer or hub partner yet (verifiedNeed:false for all tasks). This outreach task opens dialogue with candidate channels (Hugging Face model authors, BioImage/MONAI Model Zoo maintainers, Zenodo, cancer-AI consortia) to find a realistic acceptance path, and produces a shortlist of candidate models for triage.",
   "objective": "Open at least one substantive maintainer/hub/consortium outreach thread and produce a shortlist of at least 5 candidate open cancer ML models for triage, establishing a realistic acceptance path for the M0 pilot.",
   "acceptanceCriteria": [
     "At least one outreach thread opened with a named model maintainer, hub maintainer, or cancer-AI consortium contact; the thread, contact details, and response status are recorded.",

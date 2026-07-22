@@ -22,8 +22,8 @@
     "pnpm build && pnpm test && pnpm lint pass for any committed tooling; commit is DCO signed-off."
   ],
   "resources": [
-    "C:\\code\\elyos\\planning\\projects\\model-cards-oncology\\PLAN.md",
-    "C:\\code\\elyos\\planning\\ROADMAP.md",
+    "C:\\code\\hee-lee-oss\\planning\\projects\\model-cards-oncology\\PLAN.md",
+    "C:\\code\\hee-lee-oss\\planning\\ROADMAP.md",
     "Mitchell et al., Model Cards for Model Reporting (2019)",
     "Rostamzadeh et al., Healthsheet; TRIPOD+AI (2024); CLAIM (2024)",
     "Hugging Face model-card spec; Google Model Card Toolkit; Croissant ML v1.0"

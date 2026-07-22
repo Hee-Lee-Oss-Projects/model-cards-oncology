@@ -24,7 +24,7 @@
     "PLAN.md — Tech stack, Solution approach, Test fixtures & golden files",
     "TASKS.md — M0 validator-006",
     "Hugging Face model-card metadata spec (current modelcard schema)",
-    "Elyos packages/schema/src/schemas.ts"
+    "Hee-Lee Oss packages/schema/src/schemas.ts"
   ],
   "output": "A merged PR adding a TypeScript schema validator and HF model-card YAML emitter with golden fixtures and CI integration.",
   "requestor": "TO BE SECURED",
