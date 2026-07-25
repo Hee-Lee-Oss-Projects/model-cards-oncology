@@ -6,7 +6,7 @@ Open machine-learning models for cancer — digital-pathology classifiers, mutat
 
 **Definition of shipped:** / merged repo PR / published Zenodo record / written maintainer confirmation) with: every claim cited; model + all datasets gate-passed (open/de-identified, license permits use) with the committed gate artifact; subgroups reported or the gap explicitly flagged; the research-use-o
 
-This is a **Hee-Lee Oss** good-deed project. Contributors pull a task, do it with their own coding agent, and open a PR. Get started: https://github.com/Hee-Lee-Oss-Projects/hee-lee-oss-downloads
+This is a **Hee-Lee Oss** good-deed project. Contributors pull a task, do it with their own coding agent, and open a PR. Get started: https://github.com/HeeLeeOss/hee-lee-oss-downloads
 
 ## Plan
 - [PLAN.md](./PLAN.md) — robust enterprise plan (vision, architecture, roadmap, risks; includes an applied-improvements appendix + review sign-off)
@@ -16,7 +16,7 @@ This is a **Hee-Lee Oss** good-deed project. Contributors pull a task, do it wit
 ## Contribute
 ```bash
 hee-lee-oss browse
-hee-lee-oss next --repo Hee-Lee-Oss-Projects/model-cards-oncology --no-fork
+hee-lee-oss next --repo HeeLeeOss/model-cards-oncology --no-fork
 ```
 
 ## Licensing & review
